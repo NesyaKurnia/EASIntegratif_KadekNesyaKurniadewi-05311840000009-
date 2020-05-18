@@ -1,6 +1,7 @@
 # EAS Pemrograman Integratif
-### Oleh :
-- Kadek Nesya Kurniadewi [05311840000009]
+Oleh :
+### Kadek Nesya Kurniadewi 
+### [05311840000009]
 
 ## Penjelasan MVC 
 ### Models
@@ -24,16 +25,31 @@ Model yang saya gunakan pada web yang sudah saya buat ada 2 yaitu **Bantu** dan 
 Views yang saya buat ada 3, yaitu `home`, `bantu` dan `rekap`
 1. VIEW **HOME**
 - View ini hanya menampilkan ucapan Selamat Datang!, dengan tampilan seperti gambar dibawah ini 
-![](ScreenShot-Web/Tampilan-Home.png)
+![](img/home.png)
 
 2. VIEW  **BANTUAN**
-- Pada view bantuan ini kita bisa menginput bantuan dengan mengklik tombol `Tambahkan Bantuan` 
+Ini adalah tampilan dari Menu Bantuan
+![](img/bantuan.png)
+- Pada view bantuan ini kita bisa menginput bantuan dengan mengklik tombol `Tambahkan Bantuan`
 - Kemudian melakukan input pada form yang sudah disediakan, kemudian klik tombol `Tambahkan Data` setelah selesai menginput data yang diperlukan
+![](img/tambah.png)
 - Jika data berhasil ditambahkan, maka akan ada tulisan seperti dibawah ini. dan data yang kita input tadi sudah terdata dan terlihat pada menu `Bantuan`
+![](img/berhasil.png)
 - Selain itu, bisa juga untuk melihat detai dari sumbangan yang sudah kita input pada form dengan mengklik tombol `show` pada tabel penyumbang yang ada pada menu Bantuan
+![](img/show.png)
 
 3. VIEW **REKAP**
 - Pada menu ini akan ditampilkan rekapan sumbangan dan jumlah yang disumbangkan oleh penyumbang berupa tabel `Daftar Rekap`
+![](img/rekap.png)
 
 ### Controllers
-Pada controllers, saya menggunakan 3 jenis controllers yaitu `Bnatu
+Pada controllers, saya menggunakan 3 jenis controllers yaitu `HomeController.php`, `BantuController.php`, dan `RekapController.php`
+1. **HomeController.php** berfungsi untuk menampilkan halaman awal/home
+2. **BantuController.php**
+- Pada `BantuController.php` terdapat 2 fungsi yaitu fungsi `index()` dan fungsi `show()`
+- Fungsi `index()` berfungsi untuk menampilkan index dari view bantuan
+- Fungsi `show()` yang berfungsi untuk menampilkan sumbangan yang diberikan oleh penyumbang sesuai dengan id penyumbang
+3. **RekapController.php**
+- Pada `RekapController.php` ini terdapat fungsi `index()` yang digunakan untukmenampilkan index dari view rekap sumbangan
+
+##Terima Kasih
