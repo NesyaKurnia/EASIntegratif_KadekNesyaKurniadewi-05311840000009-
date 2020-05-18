@@ -2,6 +2,14 @@
 Oleh :
 ### Kadek Nesya Kurniadewi [05311840000009]
 
+# Penjelasan Singkat Aplikasi
+Aplikasi/Web yang saya buat yaitu Web untuk melakukan pedataan terhadap sumbangan yang diberikan untuk membantu masyarakat dalam menghadapi pandemi COVID-19 kali ini. 
+- Jadi, pada web yang saya buat kita bisa menginput data diri dan sumbangan untuk ikut berkontribusi dalam bantuan COVID-19 ini. 
+- Input yang dilakukan pada menu Bantuan dengan mengklik `Tambahkan Bantuan` kemudian disana kita bisa menginput nama, nama sumbangan dan jumlah sumbangan. 
+- Dimana data-data yang sudah diinput oleh user akan direkap, kemudian akan ditampilkan pada menu rekap sumbangan berupa tabel yang berisi nama sumbangan dan jumlah sumbangan yang diberikan. 
+- Selain itu, pada menu Bantuan kita juga bisa melihat nama-nama penyumbang yang sudah melakukan input data pada web tersebut.
+- Terdapat tombol show yang berguna untuk melihat detail nama sumbangan dan jenis sumbangan yang diberikan oleh penyumbang.
+
 # Penjelasan MVC 
 ## Models
 Model yang saya gunakan pada web yang sudah saya buat ada 2 yaitu **Bantu** dan **Rekap**. 
