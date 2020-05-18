@@ -51,4 +51,4 @@ Pada controllers, saya menggunakan 3 jenis controllers yaitu `HomeController.php
 3. **RekapController.php**
 - Pada `RekapController.php` ini terdapat fungsi `index()` yang digunakan untukmenampilkan index dari view rekap sumbangan
 
-##Terima Kasih
+## Terima Kasih
