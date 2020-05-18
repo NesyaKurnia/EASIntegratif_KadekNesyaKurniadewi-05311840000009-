@@ -2,8 +2,8 @@
 Oleh :
 ### Kadek Nesya Kurniadewi [05311840000009]
 
-## Penjelasan MVC 
-### Models
+# Penjelasan MVC 
+## Models
 Model yang saya gunakan pada web yang sudah saya buat ada 2 yaitu **Bantu** dan **Rekap**. 
 1. MODEL **BANTU** :
 - Memiliki struktur yang teerdiri dari `nama`, `nama_bantuan`, `jenis_bantuan` dan `jumlah_bantuan`
@@ -20,7 +20,7 @@ Model yang saya gunakan pada web yang sudah saya buat ada 2 yaitu **Bantu** dan 
 - Fungsi `findRekapById` digunakan untuk memilah data yang sesuai dengan id yang dipilih untuk melakukan show
 - Fungsi `insert()` digunakan untuk menginput data yang nantinya akan diinput juga ke database yang sudah disiapkan
 
-### Views
+## Views
 Views yang saya buat ada 3, yaitu `home`, `bantu` dan `rekap`
 1. VIEW **HOME**
 - View ini hanya menampilkan ucapan Selamat Datang!, dengan tampilan seperti gambar dibawah ini 
@@ -41,7 +41,7 @@ Ini adalah tampilan dari Menu Bantuan
 - Pada menu ini akan ditampilkan rekapan sumbangan dan jumlah yang disumbangkan oleh penyumbang berupa tabel `Daftar Rekap`
 ![](img/rekap.png)
 
-### Controllers
+## Controllers
 Pada controllers, saya menggunakan 3 jenis controllers yaitu `HomeController.php`, `BantuController.php`, dan `RekapController.php`
 1. **HomeController.php** berfungsi untuk menampilkan halaman awal/home
 2. **BantuController.php**
